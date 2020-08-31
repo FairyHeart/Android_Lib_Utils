@@ -1,4 +1,4 @@
-package com.fairy.lib.utils
+package com.fairy.lib.utils.kfunc
 
 import android.content.Context
 import android.view.LayoutInflater

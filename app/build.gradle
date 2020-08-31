@@ -33,6 +33,7 @@ dependencies {
     implementation "androidx.core:core-ktx:${libs.core_ktx_version}"
     implementation "androidx.appcompat:appcompat:${libs.appcompat_version}"
     implementation "androidx.constraintlayout:constraintlayout:${libs.constraintlayout_version}"
+    implementation project(path: ':lib_utils')
     testImplementation "junit:junit:${libs.junit_version}"
     androidTestImplementation "androidx.test.ext:junit:${libs.junitx_version}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${libs.espresso_core_version}"
