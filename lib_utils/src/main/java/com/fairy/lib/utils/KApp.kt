@@ -213,14 +213,14 @@ fun Context.getChannelNo(channelKey: String): String {
  * @return
  */
 fun Context.isInstall(packageName: String?): Boolean {
-    // 获取packagemanager
+    // 获取PackageManager
     val packageManager = this.packageManager
     // 获取所有已安装程序的包信息
     val packageInfos =
         packageManager.getInstalledPackages(0)
     // 用于存储所有已安装程序的包名
     val packageNames: MutableList<String> = ArrayList()
-    // 从pinfo中将包名字逐一取出，压入pName list中
+    // 从pInfo中将包名字逐一取出，压入pName list中
     for (i in packageInfos.indices) {
         val packName = packageInfos[i].packageName
         packageNames.add(packName)
