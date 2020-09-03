@@ -65,7 +65,7 @@ dokka {
         skipEmptyPackages = true // 跳过空包
         sourceLink {
             path = "src/main/java"
-            url = "https://github.com/FairyHeart/Android_Lib_Utils/Android_Lib_Utils/javadoc/index.html"
+            url = "https://github.com/FairyHeart/Android_Lib_Utils/blob/master/javadoc/index.html"
         }
     }
 }
