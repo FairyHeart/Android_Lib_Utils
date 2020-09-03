@@ -19,6 +19,22 @@ android {
         androidTest.java.srcDirs += 'src/androidTest/java'
         androidTest.resources.srcDirs += 'src/androidTest/res'
     }
+
+    dokka {
+        // 输出格式，目前支持五种，html, javadoc,html-as-java, markdown,kotlin-website*
+        outputFormat = 'javadoc'
+        // 文档输出目录
+        outputDirectory = "$rootDir/javadoc"
+        //配置方式一
+        configuration {
+            noJdkLink = true
+            noStdlibLink = true
+            noAndroidSdkLink = true//
+            skipDeprecated = true // 跳过废弃的接口
+            reportUndocumented = true // Emit warnings about not documented members.
+            skipEmptyPackages = true // 跳过空包
+        }
+    }
 }
 
 dependencies {
@@ -50,22 +66,3 @@ artifacts {
     archives sourcesJar
 }
 
-dokka {
-    // 输出格式，目前支持五种，html, javadoc,html-as-java, markdown,kotlin-website*
-    outputFormat = 'javadoc'
-    // 文档输出目录(app/build/dokka)
-    outputDirectory = "$rootDir/javadoc"
-    //配置方式一
-    configuration {
-        noJdkLink = true
-        noStdlibLink = true
-        noAndroidSdkLink = true//
-        skipDeprecated = true // 跳过废弃的接口
-        reportUndocumented = true // Emit warnings about not documented members.
-        skipEmptyPackages = true // 跳过空包
-        sourceLink {
-            path = "src/main/java"
-            url = "https://github.com/FairyHeart/Android_Lib_Utils/blob/master/javadoc/index.html"
-        }
-    }
-}
