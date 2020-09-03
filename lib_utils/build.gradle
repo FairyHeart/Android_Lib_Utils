@@ -52,7 +52,7 @@ artifacts {
 
 dokka {
     // 输出格式，目前支持五种，html, javadoc,html-as-java, markdown,kotlin-website*
-    outputFormat = 'markdown'
+    outputFormat = 'javadoc'
     // 文档输出目录(app/build/dokka)
     outputDirectory = "$rootDir/javadoc"
     //配置方式一
@@ -63,5 +63,9 @@ dokka {
         skipDeprecated = true // 跳过废弃的接口
         reportUndocumented = true // Emit warnings about not documented members.
         skipEmptyPackages = true // 跳过空包
+        sourceLink {
+            path = "src/main/java"
+            url = "https://github.com/FairyHeart/Android_Lib_Utils/Android_Lib_Utils/javadoc/index.html"
+        }
     }
 }
