@@ -1,0 +1,87 @@
+$dokka.format:markdown
+$dokka.linkExtension:md
+$dokka.location:com.fairy.lib.utils$add(kotlin.Double, kotlin.Double)com.fairy.lib.utils/kotlin.-double/add.md
+$dokka.location:com.fairy.lib.utils$call(kotlin.String, android.content.Context)com.fairy.lib.utils/kotlin.-string/call.md
+$dokka.location:com.fairy.lib.utils$cancelFlags(android.widget.TextView)com.fairy.lib.utils/android.widget.-text-view/cancel-flags.md
+$dokka.location:com.fairy.lib.utils$dial(kotlin.String, android.content.Context)com.fairy.lib.utils/kotlin.-string/dial.md
+$dokka.location:com.fairy.lib.utils$dp2px(kotlin.Int, android.content.Context)com.fairy.lib.utils/kotlin.-int/dp2px.md
+$dokka.location:com.fairy.lib.utils$format(java.util.Date, com.fairy.lib.utils.enum.DateStyle)com.fairy.lib.utils/java.util.-date/format.md
+$dokka.location:com.fairy.lib.utils$format(java.util.Date, kotlin.String)com.fairy.lib.utils/java.util.-date/format.md
+$dokka.location:com.fairy.lib.utils$format(kotlin.Double, com.fairy.lib.utils.enum.NumberStyle, kotlin.String)com.fairy.lib.utils/kotlin.-double/format.md
+$dokka.location:com.fairy.lib.utils$formatDate(java.util.Date, com.fairy.lib.utils.enum.DateStyle)com.fairy.lib.utils/java.util.-date/format-date.md
+$dokka.location:com.fairy.lib.utils$formatDate(kotlin.Int)com.fairy.lib.utils/kotlin.-int/format-date.md
+$dokka.location:com.fairy.lib.utils$formatLong(kotlin.Double, com.fairy.lib.utils.enum.NumberStyle, kotlin.String)com.fairy.lib.utils/kotlin.-double/format-long.md
+$dokka.location:com.fairy.lib.utils$formatTime(java.util.Date, com.fairy.lib.utils.enum.DateStyle)com.fairy.lib.utils/java.util.-date/format-time.md
+$dokka.location:com.fairy.lib.utils$formatTime(kotlin.Int)com.fairy.lib.utils/kotlin.-int/format-time.md
+$dokka.location:com.fairy.lib.utils$formatToMinute(java.util.Date)com.fairy.lib.utils/java.util.-date/format-to-minute.md
+$dokka.location:com.fairy.lib.utils$fromJson(kotlin.String, java.lang.Class((com.fairy.lib.utils.fromJson.T)))com.fairy.lib.utils/kotlin.-string/from-json.md
+$dokka.location:com.fairy.lib.utils$fromJson(kotlin.String, java.lang.reflect.Type)com.fairy.lib.utils/kotlin.-string/from-json.md
+$dokka.location:com.fairy.lib.utils$getAppIcon(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-icon.md
+$dokka.location:com.fairy.lib.utils$getAppName(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-name.md
+$dokka.location:com.fairy.lib.utils$getAppPath(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-path.md
+$dokka.location:com.fairy.lib.utils$getAppSignature(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-signature.md
+$dokka.location:com.fairy.lib.utils$getAppVersionCode(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-version-code.md
+$dokka.location:com.fairy.lib.utils$getAppVersionName(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-app-version-name.md
+$dokka.location:com.fairy.lib.utils$getChannelNo(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-channel-no.md
+$dokka.location:com.fairy.lib.utils$getDateByDayOffset(java.util.Date, kotlin.Int)com.fairy.lib.utils/java.util.-date/get-date-by-day-offset.md
+$dokka.location:com.fairy.lib.utils$getDateByHourOffset(java.util.Date, kotlin.Int)com.fairy.lib.utils/java.util.-date/get-date-by-hour-offset.md
+$dokka.location:com.fairy.lib.utils$getDateByMillis(kotlin.Long)com.fairy.lib.utils/kotlin.-long/get-date-by-millis.md
+$dokka.location:com.fairy.lib.utils$getDateByMinuteOffset(java.util.Date, kotlin.Int)com.fairy.lib.utils/java.util.-date/get-date-by-minute-offset.md
+$dokka.location:com.fairy.lib.utils$getDayNumber(java.util.Date)com.fairy.lib.utils/java.util.-date/get-day-number.md
+$dokka.location:com.fairy.lib.utils$getDensityDpi(android.content.Context)com.fairy.lib.utils/android.content.-context/get-density-dpi.md
+$dokka.location:com.fairy.lib.utils$getIMSI(android.content.Context)com.fairy.lib.utils/android.content.-context/get-i-m-s-i.md
+$dokka.location:com.fairy.lib.utils$getMetaData(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/get-meta-data.md
+$dokka.location:com.fairy.lib.utils$getPhoneNumber(android.content.Context)com.fairy.lib.utils/android.content.-context/get-phone-number.md
+$dokka.location:com.fairy.lib.utils$getPhoneStatus(android.content.Context)com.fairy.lib.utils/android.content.-context/get-phone-status.md
+$dokka.location:com.fairy.lib.utils$getPhoneType(android.content.Context)com.fairy.lib.utils/android.content.-context/get-phone-type.md
+$dokka.location:com.fairy.lib.utils$getScreenHeight(android.content.Context)com.fairy.lib.utils/android.content.-context/get-screen-height.md
+$dokka.location:com.fairy.lib.utils$getScreenWidth(android.content.Context)com.fairy.lib.utils/android.content.-context/get-screen-width.md
+$dokka.location:com.fairy.lib.utils$getSimOperatorByMnc(android.content.Context)com.fairy.lib.utils/android.content.-context/get-sim-operator-by-mnc.md
+$dokka.location:com.fairy.lib.utils$getSimOperatorName(android.content.Context)com.fairy.lib.utils/android.content.-context/get-sim-operator-name.md
+$dokka.location:com.fairy.lib.utils$getWeekNumber(java.util.Date)com.fairy.lib.utils/java.util.-date/get-week-number.md
+$dokka.location:com.fairy.lib.utils$hideSoftInput(android.app.Activity)com.fairy.lib.utils/android.app.-activity/hide-soft-input.md
+$dokka.location:com.fairy.lib.utils$hideSoftInput(android.view.View, android.content.Context)com.fairy.lib.utils/android.view.-view/hide-soft-input.md
+$dokka.location:com.fairy.lib.utils$isAppDebug(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/is-app-debug.md
+$dokka.location:com.fairy.lib.utils$isEmail(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-email.md
+$dokka.location:com.fairy.lib.utils$isIDCard15(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-i-d-card15.md
+$dokka.location:com.fairy.lib.utils$isIDCard18(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-i-d-card18.md
+$dokka.location:com.fairy.lib.utils$isIP(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-i-p.md
+$dokka.location:com.fairy.lib.utils$isInstall(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/is-install.md
+$dokka.location:com.fairy.lib.utils$isLandscape(android.content.Context)com.fairy.lib.utils/android.content.-context/is-landscape.md
+$dokka.location:com.fairy.lib.utils$isMobile(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-mobile.md
+$dokka.location:com.fairy.lib.utils$isPhone(android.content.Context)com.fairy.lib.utils/android.content.-context/is-phone.md
+$dokka.location:com.fairy.lib.utils$isPortrait(android.content.Context)com.fairy.lib.utils/android.content.-context/is-portrait.md
+$dokka.location:com.fairy.lib.utils$isSimCardReady(android.content.Context)com.fairy.lib.utils/android.content.-context/is-sim-card-ready.md
+$dokka.location:com.fairy.lib.utils$isSystemApp(android.content.Context, kotlin.String)com.fairy.lib.utils/android.content.-context/is-system-app.md
+$dokka.location:com.fairy.lib.utils$isTel(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-tel.md
+$dokka.location:com.fairy.lib.utils$isURL(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-u-r-l.md
+$dokka.location:com.fairy.lib.utils$isUsername(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-username.md
+$dokka.location:com.fairy.lib.utils$isZh(kotlin.CharSequence)com.fairy.lib.utils/kotlin.-char-sequence/is-zh.md
+$dokka.location:com.fairy.lib.utils$nullToZero(kotlin.Double)com.fairy.lib.utils/kotlin.-double/null-to-zero.md
+$dokka.location:com.fairy.lib.utils$parseDate(kotlin.String)com.fairy.lib.utils/kotlin.-string/parse-date.md
+$dokka.location:com.fairy.lib.utils$parseDate(kotlin.String, kotlin.String)com.fairy.lib.utils/kotlin.-string/parse-date.md
+$dokka.location:com.fairy.lib.utils$parseNumber(kotlin.String, kotlin.String)com.fairy.lib.utils/kotlin.-string/parse-number.md
+$dokka.location:com.fairy.lib.utils$px2dp(kotlin.Float, android.content.Context)com.fairy.lib.utils/kotlin.-float/px2dp.md
+$dokka.location:com.fairy.lib.utils$px2sp(kotlin.Float, android.content.Context)com.fairy.lib.utils/kotlin.-float/px2sp.md
+$dokka.location:com.fairy.lib.utils$round(kotlin.Double, com.fairy.lib.utils.enum.NumberStyle, kotlin.Double)com.fairy.lib.utils/kotlin.-double/round.md
+$dokka.location:com.fairy.lib.utils$sendSms(kotlin.String, kotlin.String, android.content.Context)com.fairy.lib.utils/kotlin.-string/send-sms.md
+$dokka.location:com.fairy.lib.utils$sendSmsSilent(kotlin.String, kotlin.String, android.content.Context)com.fairy.lib.utils/kotlin.-string/send-sms-silent.md
+$dokka.location:com.fairy.lib.utils$setFlagsBottom(android.widget.TextView)com.fairy.lib.utils/android.widget.-text-view/set-flags-bottom.md
+$dokka.location:com.fairy.lib.utils$setFlagsCenter(android.widget.TextView)com.fairy.lib.utils/android.widget.-text-view/set-flags-center.md
+$dokka.location:com.fairy.lib.utils$setLandscape(android.app.Activity)com.fairy.lib.utils/android.app.-activity/set-landscape.md
+$dokka.location:com.fairy.lib.utils$setListViewHeightByAllChildrenViewHeight(android.widget.ListView)com.fairy.lib.utils/android.widget.-list-view/set-list-view-height-by-all-children-view-height.md
+$dokka.location:com.fairy.lib.utils$setPortrait(android.app.Activity)com.fairy.lib.utils/android.app.-activity/set-portrait.md
+$dokka.location:com.fairy.lib.utils$showSoftInput(android.view.View, android.content.Context)com.fairy.lib.utils/android.view.-view/show-soft-input.md
+$dokka.location:com.fairy.lib.utils$sp2px(kotlin.Float, android.content.Context)com.fairy.lib.utils/kotlin.-float/sp2px.md
+$dokka.location:com.fairy.lib.utils$sub(kotlin.Double, kotlin.Double)com.fairy.lib.utils/kotlin.-double/sub.md
+$dokka.location:com.fairy.lib.utils$toJson(kotlin.Any)com.fairy.lib.utils/kotlin.-any/to-json.md
+$dokka.location:com.fairy.lib.utils$toggleSoftInput(android.content.Context)com.fairy.lib.utils/android.content.-context/toggle-soft-input.md
+$dokka.location:com.fairy.lib.utils.kfunc$fillZero(kotlin.Int, kotlin.Int)com.fairy.lib.utils.kfunc/kotlin.-int/fill-zero.md
+$dokka.location:com.fairy.lib.utils.kfunc$fillZero(kotlin.Long, kotlin.Long)com.fairy.lib.utils.kfunc/kotlin.-long/fill-zero.md
+$dokka.location:com.fairy.lib.utils.kfunc$inflateLayout(android.content.Context, kotlin.Int, android.view.ViewGroup, kotlin.Boolean)com.fairy.lib.utils.kfunc/android.content.-context/inflate-layout.md
+com.fairy.lib.utils
+com.fairy.lib.utils.delegate
+com.fairy.lib.utils.enum
+com.fairy.lib.utils.kfunc
+com.fairy.lib.utils.manager
+com.fairy.lib.utils.vo
