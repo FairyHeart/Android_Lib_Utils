@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ActivityManager - lib_utils</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">lib_utils</a>&nbsp;/&nbsp;<a href="../index.html">com.fairy.lib.utils.manager</a>&nbsp;/&nbsp;<a href="./index.html">ActivityManager</a><br/>
+<br/>
+<h1>ActivityManager</h1>
+<code><span class="keyword">class </span><span class="identifier">ActivityManager</span></code>
+<p>应用程序Activity管理类：用于Activity管理和应用程序退出</p>
+<p><strong>Author</strong><br/>
+: Fairy.</p>
+<p><strong>Date</strong><br/>
+: 2019-08-15.</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-init-.html">&lt;init&gt;</a></h4>
+</td>
+<td>
+<p>应用程序Activity管理类：用于Activity管理和应用程序退出</p>
+<code><span class="identifier">ActivityManager</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="add-activity.html">addActivity</a></h4>
+</td>
+<td>
+<p>添加Activity到堆栈</p>
+<code><span class="keyword">fun </span><span class="identifier">addActivity</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$addActivity(android.app.Activity)/activity">activity</span><span class="symbol">:</span>&nbsp;<span class="identifier">Activity</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="app-exit.html">appExit</a></h4>
+</td>
+<td>
+<p>退出应用程序</p>
+<code><span class="keyword">fun </span><span class="identifier">appExit</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$appExit(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<span class="identifier">Context</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="current-activity.html">currentActivity</a></h4>
+</td>
+<td>
+<p>获取当前Activity（堆栈中最后一个压入的）</p>
+<code><span class="keyword">fun </span><span class="identifier">currentActivity</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Activity</span><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="finish-activity.html">finishActivity</a></h4>
+</td>
+<td>
+<p>结束当前Activity（堆栈中最后一个压入的）</p>
+<code><span class="keyword">fun </span><span class="identifier">finishActivity</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>结束指定的Activity</p>
+<code><span class="keyword">fun </span><span class="identifier">finishActivity</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$finishActivity(android.app.Activity)/activity">activity</span><span class="symbol">:</span>&nbsp;<span class="identifier">Activity</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code>
+<p>结束指定类名的Activity</p>
+<code><span class="keyword">fun </span><span class="identifier">finishActivity</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$finishActivity(java.lang.Class((kotlin.Any)))/cls">cls</span><span class="symbol">:</span>&nbsp;<span class="identifier">Class</span><span class="symbol">&lt;</span><span class="identifier">*</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="finish-all-activity.html">finishAllActivity</a></h4>
+</td>
+<td>
+<p>结束所有Activity</p>
+<code><span class="keyword">fun </span><span class="identifier">finishAllActivity</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code><br/>
+<code><span class="keyword">fun </span><span class="identifier">finishAllActivity</span><span class="symbol">(</span><span class="keyword">vararg</span> <span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$finishAllActivity(kotlin.Array((java.lang.Class((kotlin.Any)))))/cls">cls</span><span class="symbol">:</span>&nbsp;<span class="identifier">Class</span><span class="symbol">&lt;</span><span class="identifier">*</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Unit</span></code></td>
+</tr>
+<tr>
+<td>
+<h4><a href="get-activity.html">getActivity</a></h4>
+</td>
+<td>
+<p>根据ActivityName获取堆中Activity实例</p>
+<code><span class="keyword">fun </span><span class="identifier">getActivity</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils.manager.ActivityManager$getActivity(kotlin.String)/activityName">activityName</span><span class="symbol">:</span>&nbsp;<span class="identifier">String</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Activity</span><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<h4><a href="-i-n-s-t-a-n-c-e.html">INSTANCE</a></h4>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">INSTANCE</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">ActivityManager</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

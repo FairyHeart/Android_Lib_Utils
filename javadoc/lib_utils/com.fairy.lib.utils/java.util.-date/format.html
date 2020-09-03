@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>format - lib_utils</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">lib_utils</a>&nbsp;/&nbsp;<a href="../index.html">com.fairy.lib.utils</a>&nbsp;/&nbsp;<a href="index.html">java.util.Date</a>&nbsp;/&nbsp;<a href="./format.html">format</a><br/>
+<br/>
+<h1>format</h1>
+<a name="com.fairy.lib.utils$format(java.util.Date, com.fairy.lib.utils.enum.DateStyle)"></a>
+<code><span class="keyword">fun </span><span class="identifier">Date</span><span class="symbol">.</span><span class="identifier">format</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils$format(java.util.Date, com.fairy.lib.utils.enum.DateStyle)/dateStyle">dateStyle</span><span class="symbol">:</span>&nbsp;<a href="../../com.fairy.lib.utils.enum/-date-style/index.html"><span class="identifier">DateStyle</span></a>&nbsp;<span class="symbol">=</span>&nbsp;DateStyle.MEDIUM<span class="symbol">)</span><span class="symbol">: </span><span class="identifier">String</span></code>
+<p>显示完整日期
+    按本地语言自动获取日期格式样式</p>
+<h3>Parameters</h3>
+<p><a name="dateStyle"></a>
+<code>dateStyle</code> - <pre><code>    DateStyle.FULL 2020年8月31日 星期一 上午10时38分10秒 CST
+    DateStyle.LONG 2020年8月31日 上午10时38分10秒
+    DateStyle.MEDIUM 2020-8-31 10:38:10 默认值
+    DateStyle.SHORT 20-8-31 上午10:38</code></pre></p>
+<p><strong>Return</strong><br/>
+</p>
+<a name="com.fairy.lib.utils$format(java.util.Date, kotlin.String)"></a>
+<code><span class="keyword">fun </span><span class="identifier">Date</span><span class="symbol">.</span><span class="identifier">format</span><span class="symbol">(</span><span class="identifier" id="com.fairy.lib.utils$format(java.util.Date, kotlin.String)/pattern">pattern</span><span class="symbol">:</span>&nbsp;<span class="identifier">String</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">String</span></code>
+<p>按自定义格式显示时间</p>
+<h3>Parameters</h3>
+<p><a name="pattern"></a>
+<code>pattern</code> - 时间格式 yyyy年MM月dd日 HH:mm:ss</p>
+<p><strong>Return</strong><br/>
+2020年08月31日 12:48:56</p>
+</BODY>
+</HTML>
