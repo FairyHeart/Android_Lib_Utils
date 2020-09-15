@@ -1,7 +1,9 @@
 package com.fairy.lib.utils
 
 import com.fairy.lib.utils.enum.NumberStyle
+import java.math.BigDecimal
 import java.text.DecimalFormat
+import java.text.NumberFormat
 import kotlin.math.floor
 
 /**
@@ -152,3 +154,48 @@ fun String?.parseNumber(regex: String = ","): Double {
     }
     return value.toDouble()
 }
+
+/**
+ * 分转元
+ */
+fun Long?.fenToYuan(): Double {
+    if (this == null) {
+        return 0.0
+    }
+    val a = BigDecimal(this)
+    val b = BigDecimal(100)
+    return a.divide(b).toDouble()
+}
+
+/**
+ * 元转分
+ * @return Long
+ */
+fun Double?.yuanToFenLong(): Long {
+    if (this == null) {
+        return 0L
+    }
+    val format = NumberFormat.getInstance()
+    // 默认情况下GroupingUsed属性为true,每三位数为一个分组，用英文半角逗号隔开，例如9,333,333
+    format.isGroupingUsed = false
+    // 设置返回数的小数部分所允许的最大位数
+    format.maximumFractionDigits = 0
+    return format.format(this.round(NumberStyle.TWO) * 100.0).toLong()
+}
+
+/**
+ * 元转分
+ * @return Int
+ */
+fun Double?.yuanToFen(): Int {
+    if (this == null) {
+        return 0
+    }
+    val format = NumberFormat.getInstance()
+    // 默认情况下GroupingUsed属性为true,每三位数为一个分组，用英文半角逗号隔开，例如9,333,333
+    format.isGroupingUsed = false
+    // 设置返回数的小数部分所允许的最大位数
+    format.maximumFractionDigits = 0
+    return format.format(this.round(NumberStyle.TWO) * 100.0).toInt()
+}
+

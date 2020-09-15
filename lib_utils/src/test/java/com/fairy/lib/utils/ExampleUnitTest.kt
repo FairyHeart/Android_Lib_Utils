@@ -44,6 +44,9 @@ class ExampleUnitTest {
         println(z.round(NumberStyle.THREE))
         println(z.round(NumberStyle.FOUR))
         println(z.round(NumberStyle.FIVES))
+
+        val a = 2644002L
+        println(a.fenToYuan())
     }
 
 
